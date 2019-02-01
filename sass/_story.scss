@@ -1,0 +1,11 @@
+.story {
+    &__pictures {
+        background-color: $sand;
+        grid-column: full-1 / col-0 4;
+    }
+
+    &__content {
+        background-color: $moonlight;
+        grid-column: col-1 5 / full-1
+    }
+}
